@@ -1,0 +1,52 @@
+body {
+	background: #bada55;
+}
+#update ul {
+	list-style: none;
+}
+
+#update ul li {
+	width: 100%;
+	padding: 0 20px;
+	background: #eee;
+	height: 70px;
+	overflow: hidden;
+	border-bottom: 1px dotted #ccc;
+	-webkit-animation: myanim 1s;
+	-moz-animation: myanim 1s;
+	-o-animation: myanim 1s;
+	animation: myanim 1s;
+
+	-webkit-transition: height 0.3s ease-out;
+	-moz-transition: height 0.3s ease-out;
+	-o-transition: height 0.3s ease-out;
+	transition: height 0.3s ease-out;
+
+}
+
+#update li:hover {
+	background: #fffce5;
+	min-height: 70px;
+	height: 250px;
+	overflow: visible;
+}
+
+@-webkit-keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+
+@-moz-keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+
+@-o-keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes myanim {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
